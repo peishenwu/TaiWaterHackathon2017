@@ -26,7 +26,7 @@ Within cluster sum of squares by cluster:
 
 ### 用水預測模型
 
-predicted_water_usage ~ household_no + factory_count + school_count + hospital_count
+_**predicted_water_usage ~ household_no + factory_count + school_count + hospital_count**_
 
 目前只限定分析 201610、「一般用水」資料，以及該一級發佈區至少有一間便利商店(store_count>1)
 
