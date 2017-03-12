@@ -12,7 +12,7 @@ https://peishenwu.shinyapps.io/test/
 1. 在搜尋區域搜尋排名在41名以後的地區，cluster選擇5 (綜合區域)，其中我們來看「宜蘭縣 五結鄉	孝威村」
 ![alt text](https://github.com/peishenwu/TaiWaterHackathon2017/blob/master/tutorial_img/01.png)
 
-2. 可以在地圖上點擊該節點，他的實際耗水量是我們模型預期的3.8倍
+2. 可以在地圖上點擊該節點，他的實際耗水量是我們模型預期的3.578倍
 ![alt text](https://github.com/peishenwu/TaiWaterHackathon2017/blob/master/tutorial_img/02.png)
 
 3. 我們在表格右上的文字匡內輸入「宜蘭」，可以看到含**宜蘭**的表格結果
