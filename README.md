@@ -8,6 +8,22 @@
 作品發佈的link
 https://peishenwu.shinyapps.io/test/
 
+### 怎麼玩？
+1. 在搜尋區域搜尋排名在41名以後的地區，cluster選擇5 (綜合區域)，其中我們來看「宜蘭縣 五結鄉	孝威村」
+![alt text](https://github.com/peishenwu/TaiWaterHackathon2017/blob/master/tutorial_img/01.png)
+
+2. 可以在地圖上點擊該節點，他的實際耗水量是我們模型預期的3.8倍
+![alt text](https://github.com/peishenwu/TaiWaterHackathon2017/blob/master/tutorial_img/02.png)
+
+3. 我們在表格右上的文字匡內輸入「宜蘭」，可以看到含**宜蘭**的表格結果
+![alt text](https://github.com/peishenwu/TaiWaterHackathon2017/blob/master/tutorial_img/03.png)
+
+4. 可以看到在cluster5裡，宜蘭地區耗水實際跟預期差距最大的前三名為「孝威村」「協和」「東門」
+![alt text](https://github.com/peishenwu/TaiWaterHackathon2017/blob/master/tutorial_img/04.png)
+
+5. 用google map街景實際去看，原來是民宿區啊，而且還有一個人工湖？ 或許可以解釋？
+![alt text](https://github.com/peishenwu/TaiWaterHackathon2017/blob/master/tutorial_img/05.png)
+
 ### kmeans clustering的說明
 
 cluster|factory_count|store_count|school_count|hospital_count|判讀
@@ -56,3 +72,5 @@ Residual standard error: 3427 on 42068 degrees of freedom
 Multiple R-squared:  0.4077,	Adjusted R-squared:  0.4076 
 F-statistic:  7238 on 4 and 42068 DF,  p-value: < 2.2e-16
 ```
+
+
