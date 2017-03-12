@@ -1,0 +1,10 @@
+name: test
+title: water_usage
+account: peishenwu
+server: shinyapps.io
+appId: 162892
+bundleId: 743150
+url: https://peishenwu.shinyapps.io/test/
+when: 1489287246.56512
+asMultiple: FALSE
+asStatic: FALSE
