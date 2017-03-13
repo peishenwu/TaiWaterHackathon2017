@@ -2,14 +2,14 @@
 
 這個是參加2017/3/11於新竹的台灣自來水黑客松成果
 
-為用shiny + R + Kmeans 做了全國各地區用水pattern，以各一級發佈區的工廠數、四大便利商店數、醫院數與做clustering，並且用Regression做了一個簡單的用水Prediction，對於偏差很大的地區可以在地圖上辨識出來
+為用shiny + R + Kmeans 做了全國各地區用水pattern 以各一級發佈區的工廠數、四大便利商店數、醫院數與做clustering，並且用Regression做了一個簡單的用水Prediction，對於偏差很大的地區可以在地圖上辨識出來
 
 
-作品發佈的link
+作品發佈的link (點擊進來玩玩看！)
 https://peishenwu.shinyapps.io/test/
 
 ### 怎麼玩？
-1. 在搜尋區域搜尋排名在41名以後的地區，cluster選擇5 (綜合區域)，其中我們來看「宜蘭縣 五結鄉	孝威村」
+1. 點擊上面的link之後，在搜尋區域搜尋排名在41名以後的地區，cluster選擇5 (綜合區域)，其中我們來看「宜蘭縣 五結鄉	孝威村」
 ![alt text](https://github.com/peishenwu/TaiWaterHackathon2017/blob/master/tutorial_img/01.png)
 
 2. 可以在地圖上點擊該節點，他的實際耗水量是我們模型預期的3.578倍
@@ -23,6 +23,15 @@ https://peishenwu.shinyapps.io/test/
 
 5. 用google map街景實際去看，原來是民宿區啊，而且還有一個人工湖？ 或許可以解釋？
 ![alt text](https://github.com/peishenwu/TaiWaterHackathon2017/blob/master/tutorial_img/05.png)
+
+### 這次用到的資料集
+1. 中華民國最小統計區資料 [https://sheethub.com/area.reference.tw/]
+2. 各縣統計區人口統計 最小統計區 [http://segis.moi.gov.tw/]
+3. 一級發佈區的每月用水資料 [http://www.water.gov.tw/ct.aspx?xItem=153656&CtNode=3395&mp=1]
+4. 登記工廠名錄 [http://data.gov.tw/node/6569]
+5. 健保局特約醫療院所 (http://www.nhi.gov.tw/webdata/webdata.aspx?menu=18&menu_id=683&webdata_id=660&WD_ID=755)
+6. 大專校院名錄 [http://data.gov.tw/node/6091]
+7. 全國營業(稅籍)登記資料集 [http://data.gov.tw/node/9400]
 
 ### kmeans clustering的說明
 
